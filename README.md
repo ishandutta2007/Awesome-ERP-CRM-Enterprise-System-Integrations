@@ -1,33 +1,70 @@
-# Awesome-ERP-CRM-Enterprise-System-Integrations
+<div align="center">
 
-## Top ERP & CRM Enterprise System Integrations Ecosystem
+<img src="./assets/banner.svg" alt="Awesome ERP and CRM Enterprise System Integrations Banner" width="100%" />
 
-**Curated List of SaaS Platforms & Open-Source GitHub Projects**  
-*Focused on Contract-to-ERP Connectivity, iPaaS Orchestration & Self-Hosted Integration Frameworks*  
+# ⚡ Awesome ERP & CRM Enterprise System Integrations 🚀
+
+### *A Curated Directory of Enterprise iPaaS, CLM-to-ERP Connectors, Data Pipelines & Open-Source Integration Frameworks*
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-ERP-CRM-Enterprise-System-Integrations/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-ERP-CRM-Enterprise-System-Integrations?style=flat-square&logo=github" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-ERP-CRM-Enterprise-System-Integrations/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-ERP-CRM-Enterprise-System-Integrations?style=flat-square&logo=github" alt="GitHub Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-ERP-CRM-Enterprise-System-Integrations/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-ERP-CRM-Enterprise-System-Integrations?style=flat-square" alt="GitHub Issues"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-ERP-CRM-Enterprise-System-Integrations/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+<p align="center">
+  <b>Enterprise Integration Platform as a Service (iPaaS)</b> • <b>ERP Connectivity</b> • <b>CRM Synchronization</b> • <b>Contract Lifecycle Management (CLM)</b> • <b>Enterprise Integration Patterns (EIP)</b> • <b>Open-Source Orchestration</b>
+</p>
+
 **Last updated: March 2026**
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **ERP & CRM Enterprise System Integrations**. These tools help organizations connect contract intelligence, CRM, ERP, and HR systems—covering everything from native CLM-to-SAP connectors and enterprise iPaaS platforms to open-source integration frameworks that eliminate per-connection or per-message licensing.
+</div>
 
-**Examples** include Azure Logic Apps, MuleSoft Anypoint, SAP Integration Suite, Informatica Cloud, Boomi, Workato, Icertis Platform Integrations, SnapLogic, Celigo, and Jitterbit.
+---
 
-**Open-source emphasis**: This section highlights active projects for self-hosted integration frameworks, open-source ERP/CRM development platforms, and community-driven connectivity—ideal for organizations seeking data sovereignty and avoiding per-vCore or per-task commercial licensing.
+## 📖 Overview
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+Welcome to the definitive awesome list for **ERP & CRM Enterprise System Integrations**. Modern organizations rely on a web of distributed business applications—including ERP (Enterprise Resource Planning), CRM (Customer Relationship Management), CLM (Contract Lifecycle Management), HRIS, and Supply Chain Management backends.
 
-## Table of Contents
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+This repository tracks the leading **commercial SaaS iPaaS platforms** and **open-source integration frameworks** designed to connect systems like SAP S/4HANA, Salesforce, Microsoft Dynamics 365, Workday, and NetSuite without vendor lock-in or unmanageable operational friction.
 
-## Sector Overview & Market Dynamics
+Key architectural domains covered:
+- 🔗 **Cloud iPaaS & Hybrid Integration**: Managed cloud gateways bridging cloud SaaS with legacy on-premises ERP systems.
+- 🤝 **Contract-to-ERP (CLM) Governance**: Automated synchronization of approved contracts, purchase orders, and deliverables.
+- 🌐 **Open-Source Enterprise Integration Patterns (EIP)**: Self-hosted, code-first frameworks (Java, Rust, Python, TypeScript) avoiding per-connection licensing taxes.
+- 🔄 **Business Process Automation (BPA/BPMN) & Data Movement**: High-throughput ELT replication and conditional human-in-the-loop workflow orchestration.
 
-The global enterprise Integration Platform as a Service (iPaaS) and enterprise system integration market is estimated at **$8.5 billion to $17.9 billion in 2025–2026**, expanding at a rapid compound annual growth rate (CAGR) of 19% to 30%. The sector is **moderately fragmented** with high top-tier concentration: while hyperscalers and legacy enterprise software giants (Microsoft, Salesforce MuleSoft, SAP, Informatica) command major multi-billion-dollar enterprise footprints, agile modern automation platforms (Workato, Boomi) and specialized vertical/open-source orchestrators prevent a winner-take-all monopoly by thriving across mid-market, hybrid cloud, and self-hosted environments.
+---
 
-## SaaS/Hosted Platforms
+## 📑 Table of Contents
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Enterprise iPaaS Platforms](#️-saas--hosted-enterprise-ipaas-platforms)
+- [💻 Open-Source Integration Frameworks & Platforms](#-open-source-integration-frameworks--platforms)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚖️ Disclaimer](#️-disclaimer)
 
-| Product | Company Size (Valuation / Revenue) | Description | Starting Pricing | Free Tier / Trial Limits |
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The global enterprise Integration Platform as a Service (iPaaS) and enterprise system integration sector is estimated at **$8.5 billion to $17.9 billion in 2025–2026**, growing at a compound annual growth rate (**CAGR of 19% to 30%**). The market is **moderately fragmented** with heavy top-tier concentration:
+
+- 🏢 **Hyperscalers & Legacy Powerhouses**: Mega-vendors such as Microsoft (Azure Logic Apps), Salesforce (MuleSoft Anypoint), SAP (Integration Suite), and Informatica maintain widespread Fortune 500 footprint through enterprise suite bundling, deep governance, and established ecosystem partnerships.
+- 🚀 **Agile Modern iPaaS & Automation Pioneers**: Independent innovators like Workato, Boomi, SnapLogic, and Celigo command massive market share in low-code process automation, mid-market ERP sync (e.g., NetSuite), and AI agent orchestration.
+- 🔓 **Self-Hosted & Open-Source Emergence**: High recurring licensing costs, per-vCore minimums, and strict data-sovereignty mandates have fueled the enterprise adoption of self-hosted solutions like Apache Camel, n8n, Airbyte, and Flowable—preventing any single vendor from establishing a winner-take-all monopoly.
+
+---
+
+## ☁️ SaaS & Hosted Enterprise iPaaS Platforms
+
+> *Commercial enterprise integration platforms and contract intelligence bridges, sorted descending by company size (valuation / annual revenue).*
+
+| Product | 🏢 Company Size (Valuation / Revenue) | 📝 Description | 💳 Starting Pricing | 🎁 Free Tier / Trial Limits |
 |---------|------------------------------------|-------------|------------------|--------------------------|
 | **[Azure Logic Apps](https://azure.microsoft.com/en-us/products/logic-apps/)** | **~$3.1 Trillion** market cap (Microsoft) / **$245B+** annual rev | **Serverless enterprise workflows and integration pipelines within Microsoft Azure.** Native hybrid connectivity to SAP, Dynamics 365, Salesforce, and enterprise messaging queues with hundreds of managed connectors. | **$0.000025 per action execution** (Consumption model); Standard fixed capacity starting at **~$175/month** per compute instance | **Free plan**: 4,000 free action executions per month (at the Azure subscription level) |
 | **[MuleSoft Anypoint Platform](https://www.mulesoft.com/)** | **~$310 Billion** market cap (Salesforce) / **$34B+** annual rev | **Enterprise iPaaS and API management gold standard.** Provides API-led connectivity across ERP (SAP, Oracle) and CRM architectures. CloudHub and on-premise execution runtimes with Mule Credits and vCore allocations. | **$2,000/month** ($24,000/year billed annually) entry baseline; median enterprise contract **~$68,695/year** | **30-day free trial**: sandboxed trial environment with limited design flows and restricted runtime compute |
@@ -40,11 +77,15 @@ The global enterprise Integration Platform as a Service (iPaaS) and enterprise s
 | **[Celigo](https://www.celigo.com/)** | **~$500 Million** estimated valuation / **~$90 Million** ARR | **Business-user friendly iPaaS optimized for NetSuite, Salesforce, and mid-market ERP integrations.** Preconfigured "Integration Apps" with automated error handling and sync flows. | **~$14,787/year** median contract (entry flow licenses starting at **~$600/month** billed annually) | **Free plan**: 2 endpoints and 1 active integration flow permanently free; plus a **30-day unlimited trial** |
 | **[Jitterbit](https://www.jitterbit.com/)** | **~$450 Million** estimated valuation / **~$95 Million** ARR | **Low-code integration platform (Harmony) with flat-rate multi-year models.** Connects legacy on-prem ERP systems (SAP, Epicor) with modern SaaS CRMs and custom APIs. | **~$1,000/month** ($12,000/year billed annually) entry Standard tier | **14-day free trial**: request-based evaluation access with sample connectors and design studio |
 
-## Open-Source GitHub Projects
+---
 
-| Project | Stars | Description |
-|---------|-------|-------------|
-| **[n8n](https://github.com/n8n-io/n8n)** | [![Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers) | **Fair-code licensed workflow automation platform with 400+ native connectors.** Visual node-based designer ideal for bridging ERP, CRM, and webhook events with custom JavaScript/Python logic and AI agent tools. Self-hostable via Docker. |
+## 💻 Open-Source Integration Frameworks & Platforms
+
+> *Active open-source projects for self-hosted enterprise connectivity, ETL pipelines, and BPMN process orchestration, sorted descending by GitHub Star Count.*
+
+| Project | ⭐ Stars Badge | 🛠️ Description & Architecture |
+|---------|-------------|------------------------------|
+| **[n8n](https://github.com/n8n-io/n8n)** | [![Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers) | **Fair-code workflow automation platform with 400+ native connectors.** Visual node-based designer ideal for bridging ERP, CRM, and webhook events with custom JavaScript/Python logic and AI agent tools. Self-hostable via Docker. |
 | **[Odoo](https://github.com/odoo/odoo)** | [![Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers) | **Extensible open-source enterprise suite (LGPLv3) featuring native ERP & CRM apps.** Exposes comprehensive XML-RPC, REST, and JSON-RPC APIs for bi-directional integration with external financial, sales, and supply chain applications. |
 | **[ERPNext](https://github.com/frappe/erpnext)** | [![Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers) | **Full-featured open-source ERP system built on the Frappe framework (GPLv3).** Includes built-in REST API endpoints, webhook subscriptions, and modular doctype schemas for synchronizing orders, inventory, and customer databases. |
 | **[Activepieces](https://github.com/activepieces/activepieces)** | [![Stars](https://img.shields.io/github/stars/activepieces/activepieces?style=social&color=white)](https://github.com/activepieces/activepieces/stargazers) | **Open-source no-code business automation tool (MIT license).** Modern TypeScript-based alternative to Zapier and Workato designed for internal tool orchestrations, ERP notifications, and multi-tenant webhook processing. |
@@ -58,22 +99,47 @@ The global enterprise Integration Platform as a Service (iPaaS) and enterprise s
 | **[Hubleto](https://github.com/hubleto/erp)** | [![Stars](https://img.shields.io/github/stars/hubleto/erp?style=social&color=white)](https://github.com/hubleto/erp/stargazers) | **Open-source PHP-based ERP/CRM development framework.** Provides customizable modules for contacts, orders, and deals with React + TailwindCSS UI, CLI automation, and modular data synchronization tools. |
 | **[Cameleer](https://github.com/pmsudhi/cameleer)** | [![Stars](https://img.shields.io/github/stars/pmsudhi/cameleer?style=social&color=white)](https://github.com/pmsudhi/cameleer/stargazers) | **Apache Camel's routes compiled as a single native Rust binary.** Sub-3ms startup and 7 MB memory footprint executing Camel YAML DSL with built-in MCP server support for low-overhead serverless and AI agent integration flows. |
 
-## How to Contribute
+---
 
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format and table schema).
-3. Include: name, link, company size or stars badge, starting pricing, free limits, and a concise 1–2 sentence description.
-4. Submit a PR with a short explanation.
+## 🤝 How to Contribute
 
-Star the repo if you find it useful!
+Contributions make the open-source and integration community thrive! Here is how you can help:
 
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- ERP/CRM integration platforms handle sensitive business data including financial records, customer PII, and contract terms; enforce least-privilege connector permissions, secret rotation, and audit logging for all integration flows.
-- Pricing models vary dramatically across commercial iPaaS: evaluate infrastructure vCores, credit consumption rates, and connector licensing terms before enterprise commitment. Open-source self-hosted options eliminate recurring license fees but require internal hosting and maintenance engineering.
+1. 🍴 **Fork the Repository** to your own GitHub account.
+2. 🌿 **Create a Feature Branch** (`git checkout -b feature/add-new-connector`).
+3. 📝 **Add or Update Entries** in `README.md` following our structured table schema (Name, Company Size or Stars Badge, Verified Pricing, Free Limits, and Architecture Overview).
+4. ✅ **Ensure Accurate & Factual Data** (linking directly to official project repositories or vendor pricing documentation).
+5. 🚀 **Submit a Pull Request** with a clear description of your changes.
 
 ---
 
-**Made for integration engineers, ERP architects, and organizations building enterprise connectivity.**  
-Let's make ERP and CRM system integrations more open, governed, and cost-predictable.
+## 💖 Support & Sponsorship
+
+Thank you for exploring this curated repository! If you find this enterprise integration index valuable:
+
+- ⭐ **Star this repository** to help others discover it across GitHub.
+- 🍴 **Fork and share** with fellow solution architects, enterprise integration engineers, and developers.
+- ☕ **Support the maintainer**: If you would like to buy a coffee or support ongoing maintenance and research across open-source enterprise tools, please visit the **[GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007)**. Every bit of support is immensely appreciated!
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-ERP-CRM-Enterprise-System-Integrations&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-ERP-CRM-Enterprise-System-Integrations&type=date&legend=top-left)
+
+---
+
+## ⚖️ Disclaimer
+
+- This repository is a **community-curated index** provided for educational and architectural research purposes—it does not constitute a formal commercial endorsement.
+- ERP and CRM integration pipelines handle mission-critical, regulated business data including financial balances, employee PII, customer records, and contract stipulations. Always enforce strict least-privilege credentials, automated secret rotation, encrypted transit (mTLS), and immutable audit logs across production endpoints.
+- Commercial software pricing and trial policies evolve continuously. Always verify the latest contractual terms directly with vendors prior to procurement.
+
+---
+
+<div align="center">
+
+**Made with ❤️ for integration engineers, ERP architects, and enterprise builders worldwide.**  
+*Connecting enterprises reliably, securely, and cost-effectively.*
+
+</div>

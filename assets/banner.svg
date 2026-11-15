@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="50%" stop-color="#0e172e"/>
+      <stop offset="100%" stop-color="#050811"/>
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="50%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+
+    <linearGradient id="glowGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#1d4ed8" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="glowGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#6d28d9" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.75" stroke-opacity="0.3"/>
+    </pattern>
+
+    <style>
+      .bg-pulse {
+        animation: pulseOrb 8s ease-in-out infinite alternate;
+      }
+      .bg-pulse-rev {
+        animation: pulseOrbRev 9s ease-in-out infinite alternate;
+      }
+      .pulse-flow {
+        stroke-dasharray: 8, 12;
+        animation: dashFlow 20s linear infinite;
+      }
+      .pulse-flow-fast {
+        stroke-dasharray: 6, 10;
+        animation: dashFlow 12s linear infinite;
+      }
+      .data-packet {
+        animation: packetMove 5s ease-in-out infinite;
+      }
+      .pill-float {
+        animation: floatPill 6s ease-in-out infinite alternate;
+      }
+      .pill-float-2 {
+        animation: floatPill2 7s ease-in-out infinite alternate;
+      }
+      @keyframes dashFlow {
+        from { stroke-dashoffset: 400; }
+        to { stroke-dashoffset: 0; }
+      }
+      @keyframes pulseOrb {
+        0% { transform: translate(0, 0) scale(1); opacity: 0.35; }
+        100% { transform: translate(30px, 20px) scale(1.15); opacity: 0.65; }
+      }
+      @keyframes pulseOrbRev {
+        0% { transform: translate(0, 0) scale(1.1); opacity: 0.3; }
+        100% { transform: translate(-25px, -15px) scale(0.9); opacity: 0.6; }
+      }
+      @keyframes floatPill {
+        0% { transform: translateY(0px); }
+        100% { transform: translateY(-6px); }
+      }
+      @keyframes floatPill2 {
+        0% { transform: translateY(0px); }
+        100% { transform: translateY(7px); }
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)"/>
+  <rect width="100%" height="100%" fill="url(#grid)"/>
+
+  <!-- Background Animated Glowing Orbs (Deep behind content) -->
+  <g filter="blur(40px)">
+    <circle class="bg-pulse" cx="220" cy="140" r="160" fill="url(#glowGrad1)"/>
+    <circle class="bg-pulse-rev" cx="980" cy="270" r="180" fill="url(#glowGrad2)"/>
+    <circle class="bg-pulse" cx="600" cy="380" r="140" fill="url(#glowGrad1)"/>
+  </g>
+
+  <!-- Dynamic Animated Integration Flow Lines (Background Layers) -->
+  <g opacity="0.45">
+    <path class="pulse-flow" d="M 50,340 C 250,220 400,380 600,280 C 800,180 950,330 1150,250" fill="none" stroke="#38bdf8" stroke-width="2.5"/>
+    <path class="pulse-flow-fast" d="M 50,110 C 280,240 450,80 680,180 C 900,280 1020,120 1150,160" fill="none" stroke="#a855f7" stroke-width="2"/>
+    <path class="pulse-flow" d="M 120,400 C 350,310 520,390 750,310 C 920,230 1050,360 1180,310" fill="none" stroke="#06b6d4" stroke-width="1.8"/>
+  </g>
+
+  <!-- Dynamic Nodes (Under subtle positioning) -->
+  <g opacity="0.6">
+    <circle cx="200" cy="235" r="4" fill="#38bdf8"/>
+    <circle cx="480" cy="310" r="5" fill="#a78bfa"/>
+    <circle cx="720" cy="205" r="4.5" fill="#38bdf8"/>
+    <circle cx="990" cy="300" r="5" fill="#06b6d4"/>
+  </g>
+
+  <!-- Foreground Title and Subtitle Header Group -->
+  <g transform="translate(600, 115)" text-anchor="middle">
+    <!-- Top Pill Badge -->
+    <g transform="translate(-165, -60)" class="pill-float">
+      <rect width="330" height="28" rx="14" fill="#1e293b" fill-opacity="0.85" stroke="#475569" stroke-width="1"/>
+      <circle cx="16" cy="14" r="5" fill="#10b981"/>
+      <text x="175" y="18" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" letter-spacing="1">ENTERPRISE SYSTEM ARCHITECTURE</text>
+    </g>
+
+    <!-- Main Title -->
+    <text y="28" fill="url(#titleGrad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" letter-spacing="-0.5">
+      Awesome ERP &amp; CRM Integrations
+    </text>
+
+    <!-- Subtitle -->
+    <text y="72" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="19" font-weight="400" letter-spacing="0.2">
+      Curated Ecosystem of Enterprise iPaaS, CLM Connectors &amp; Open-Source Orchestrators
+    </text>
+
+    <text y="104" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="500">
+      SAP • Salesforce • Workday • Azure • MuleSoft • Apache Camel • n8n • Airbyte • Flowable
+    </text>
+  </g>
+
+  <!-- Foreground Feature Category Cards / Dynamic Flow Badges -->
+  <g transform="translate(100, 275)">
+    <!-- Pill 1: Enterprise iPaaS -->
+    <g transform="translate(0, 0)" class="pill-float">
+      <rect width="210" height="85" rx="12" fill="#0f172a" fill-opacity="0.92" stroke="#3b82f6" stroke-width="1.2"/>
+      <circle cx="32" cy="30" r="12" fill="#1e3a8a"/>
+      <text x="32" y="35" text-anchor="middle" fill="#60a5fa" font-size="14">⚡</text>
+      <text x="56" y="34" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700">Enterprise iPaaS</text>
+      <text x="20" y="62" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5">MuleSoft, Boomi, Logic Apps</text>
+    </g>
+
+    <!-- Pill 2: Contract-to-ERP (CLM) -->
+    <g transform="translate(260, 0)" class="pill-float-2">
+      <rect width="220" height="85" rx="12" fill="#0f172a" fill-opacity="0.92" stroke="#8b5cf6" stroke-width="1.2"/>
+      <circle cx="32" cy="30" r="12" fill="#4c1d95"/>
+      <text x="32" y="35" text-anchor="middle" fill="#c084fc" font-size="14">🤝</text>
+      <text x="56" y="34" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700">Contract &amp; ERP Sync</text>
+      <text x="20" y="62" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5">Icertis, S/4HANA, Salesforce</text>
+    </g>
+
+    <!-- Pill 3: Open-Source Frameworks -->
+    <g transform="translate(530, 0)" class="pill-float">
+      <rect width="220" height="85" rx="12" fill="#0f172a" fill-opacity="0.92" stroke="#06b6d4" stroke-width="1.2"/>
+      <circle cx="32" cy="30" r="12" fill="#164e63"/>
+      <text x="32" y="35" text-anchor="middle" fill="#22d3ee" font-size="14">🌐</text>
+      <text x="56" y="34" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700">Open-Source EIP</text>
+      <text x="20" y="62" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5">Apache Camel, NiFi, Spring</text>
+    </g>
+
+    <!-- Pill 4: Workflow Automation -->
+    <g transform="translate(800, 0)" class="pill-float-2">
+      <rect width="200" height="85" rx="12" fill="#0f172a" fill-opacity="0.92" stroke="#10b981" stroke-width="1.2"/>
+      <circle cx="32" cy="30" r="12" fill="#064e3b"/>
+      <text x="32" y="35" text-anchor="middle" fill="#34d399" font-size="14">🔄</text>
+      <text x="56" y="34" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700">Automation &amp; ETL</text>
+      <text x="20" y="62" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5">n8n, Airbyte, Flowable, Odoo</text>
+    </g>
+  </g>
+
+  <!-- Border Frame -->
+  <rect x="1" y="1" width="1198" height="418" rx="14" fill="none" stroke="#334155" stroke-width="1.5" stroke-opacity="0.6"/>
+</svg>
