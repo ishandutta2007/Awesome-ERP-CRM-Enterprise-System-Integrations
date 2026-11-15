@@ -1,6 +1,6 @@
 # Awesome-ERP-CRM-Enterprise-System-Integrations
 
-# Top ERP & CRM Enterprise System Integrations Ecosystem
+## Top ERP & CRM Enterprise System Integrations Ecosystem
 
 **Curated List of SaaS Platforms & Open-Source GitHub Projects**  
 *Focused on Contract-to-ERP Connectivity, iPaaS Orchestration & Self-Hosted Integration Frameworks*  
