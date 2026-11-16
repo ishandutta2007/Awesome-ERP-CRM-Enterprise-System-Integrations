@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-ERP-CRM-Enterprise-System-Integrations/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-ERP-CRM-Enterprise-System-Integrations?style=flat-square&logo=github" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-ERP-CRM-Enterprise-System-Integrations/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-ERP-CRM-Enterprise-System-Integrations?style=flat-square&logo=github" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-ERP-CRM-Enterprise-System-Integrations/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-ERP-CRM-Enterprise-System-Integrations?style=flat-square&logo=github" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-ERP-CRM-Enterprise-System-Integrations/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-ERP-CRM-Enterprise-System-Integrations?style=flat-square" alt="GitHub Issues"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-ERP-CRM-Enterprise-System-Integrations/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License"/></a>
@@ -81,9 +81,9 @@ The global enterprise Integration Platform as a Service (iPaaS) and enterprise s
 
 ## 💻 Open-Source Integration Frameworks & Platforms
 
-> *Active open-source projects for self-hosted enterprise connectivity, ETL pipelines, and BPMN process orchestration, sorted descending by GitHub Star Count.*
+> *Active open-source projects for self-hosted enterprise connectivity, ETL pipelines, and BPMN process orchestration, sorted descending by GitHub Stars_Count.*
 
-| Project | ⭐ Stars Badge | 🛠️ Description & Architecture |
+| Project | ⭐ Stars_Badge | 🛠️ Description & Architecture |
 |---------|-------------|------------------------------|
 | **[n8n](https://github.com/n8n-io/n8n)** | [![Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers) | **Fair-code workflow automation platform with 400+ native connectors.** Visual node-based designer ideal for bridging ERP, CRM, and webhook events with custom JavaScript/Python logic and AI agent tools. Self-hostable via Docker. |
 | **[Odoo](https://github.com/odoo/odoo)** | [![Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers) | **Extensible open-source enterprise suite (LGPLv3) featuring native ERP & CRM apps.** Exposes comprehensive XML-RPC, REST, and JSON-RPC APIs for bi-directional integration with external financial, sales, and supply chain applications. |
@@ -107,7 +107,7 @@ Contributions make the open-source and integration community thrive! Here is how
 
 1. 🍴 **Fork the Repository** to your own GitHub account.
 2. 🌿 **Create a Feature Branch** (`git checkout -b feature/add-new-connector`).
-3. 📝 **Add or Update Entries** in `README.md` following our structured table schema (Name, Company Size or Stars Badge, Verified Pricing, Free Limits, and Architecture Overview).
+3. 📝 **Add or Update Entries** in `README.md` following our structured table schema (Name, Company Size or Stars_Badge, Verified Pricing, Free Limits, and Architecture Overview).
 4. ✅ **Ensure Accurate & Factual Data** (linking directly to official project repositories or vendor pricing documentation).
 5. 🚀 **Submit a Pull Request** with a clear description of your changes.
 
